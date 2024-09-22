@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #121212
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+ 
+}
+.navbox {
+    color: aliceblue;
+    font-family: "Anton SC", sans-serif;
+    display: inline-flex;
+    font-size: 30px;
+    gap: 10vw ;
+}
+.brewlogo {
+    width: 200px;
+    height: 200px;
+}
+#middle {
+    margin-top: -30px;
+    width: 200px;
+    height: 210px;
+}
+#left, #right {
+    margin-top: 40px;
+}
+#home:hover {
+   
+    color: #CC5500;
+}
+#menu:hover {
+   
+    color: #CC5500;
+}
+#loc:hover {
+   
+    color: #CC5500;
+}
+#about:hover {
+ 
+    color: #CC5500;
+}
+
