@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #121212
+    background-color: #121212;
+    height: 3000px
 }
 .navbar {
     display: flex;
@@ -44,4 +45,24 @@ body {
  
     color: #CC5500;
 }
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 500px;
+    width: 650px;
+}
+#milktea {
+    border-radius: 50px;
+    width: 700px;
+}
 
+#spanbg {
+    margin-top: 60px;
+    background-color: aliceblue;
+    height: 200px;
+}
